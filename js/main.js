@@ -159,6 +159,7 @@
             let size = thumbLink.dataset.size.split('x'); 
             let width  = size[0];
             let height = size[1];
+            console.log('w,h', width, height)
 
             let item = {
                 src  : href,
